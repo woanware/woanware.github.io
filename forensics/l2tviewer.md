@@ -25,10 +25,10 @@ LocalDB needs to be installed (just use all of the default options) before runni
 
 ## Usage ## 
 
-  * Click the File->New menu item or New tool bar button, select output folder, wait for the DB to be generated.
-  * Next click the File->Import->Single menu item, choose the log2timeline file, the app will load a few lines to preview it
-  * Enter the Mount Point Prefix, mine is generally something like "[root]\" or "/mnt/windows_mount/", this value will be replaced with a mounted image (as a local drive) e.g. "D:\" for file viewing and hashing, click OK and wait for the import to finish
-  * Click the Tools->Set Drive menu to choose the already mounted forensic image, then the context menu items will be enabled, so you can then right click on a row and choose the View or Hash context menu items
+- Click the File->New menu item or New tool bar button, select output folder, wait for the DB to be generated.
+- Next click the File->Import->Single menu item, choose the log2timeline file, the app will load a few lines to preview it
+- Enter the Mount Point Prefix, mine is generally something like "[root]\" or "/mnt/windows_mount/", this value will be replaced with a mounted image (as a local drive) e.g. "D:\" for file viewing and hashing, click OK and wait for the import to finish
+- Click the Tools->Set Drive menu to choose the already mounted forensic image, then the context menu items will be enabled, so you can then right click on a row and choose the View or Hash context menu items
   
 
 ## Screenshot ## 
