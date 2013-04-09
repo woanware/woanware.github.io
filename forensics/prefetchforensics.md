@@ -32,4 +32,4 @@ PrefetchForensics must be run as an administrator level user due to the low leve
 ## Screenshot ##
 
 ## Download ##
-- [v1.0.4](/downloads/PrefetchForensics.v.1.0.4.zip)
+- [Binaries (v1.0.4)](/downloads/PrefetchForensics.v.1.0.4.zip)

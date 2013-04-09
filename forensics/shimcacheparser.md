@@ -3,7 +3,7 @@ layout: default
 title: shimcacheparser
 ---
 
-## shimcacheparser ##
+# shimcacheparser #
 
 This is a .Net port of the Mandiant ShimCacheParser ([https://github.com/mandiant/ShimCacheParser](https://github.com/mandiant/ShimCacheParser)). 
 
@@ -14,5 +14,6 @@ There are a number of reasons for porting, primarily to understand the SHIM cach
 The second was two other tools I used displayed strange artifacts after the main binary path information. The final reason was that I wanted automated sorting and user defined delimiters! 
 
 ## Download ##
+
 - [Source Code](https://github.com/woanware/shimcacheparser)
 - [Binaries (v1.0.1)](/downloads/shimcacheparser.v.1.0.1.zip)
