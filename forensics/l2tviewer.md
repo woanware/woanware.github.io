@@ -3,9 +3,9 @@ layout: default
 title: l2tViewer
 ---
 
-# l2tViewer
+# l2tViewer #
 
-**Info** 
+## Info ## 
 
 Note: l2tViewer is still **BETA** software. Some parts are rough around the edges, some bits might not work etc. l2tViewer uses .Net 4.5 so it is time to upgrade your .Net install :-) All of my future releases will be recompiled with .Net 4.5 so you may as well upgrade now: 
 
@@ -23,7 +23,7 @@ LocalDB needs to be installed (just use all of the default options) before runni
 - x86: http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SqlLocaLDB.MSI 
 - x64: http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SqlLocalDB.MSI The application currently imports about 200,000 records  in 25 seconds on an $MFT file and 350,000 records in 55 seconds on a mixed Windows file. 
 
-**Usage**
+## Usage ## 
 
   * Click the File->New menu item or New tool bar button, select output folder, wait for the DB to be generated.
   * Next click the File->Import->Single menu item, choose the log2timeline file, the app will load a few lines to preview it
@@ -31,8 +31,8 @@ LocalDB needs to be installed (just use all of the default options) before runni
   * Click the Tools->Set Drive menu to choose the already mounted forensic image, then the context menu items will be enabled, so you can then right click on a row and choose the View or Hash context menu items
   
 
-**Screenshot**
+## Screenshot ## 
 
-**Download** 
+## Download ##
 
-[v0.0.3](/downloads/l2tViewer.v.0.0.3.zip)
+- [v0.0.3](/downloads/l2tViewer.v.0.0.3.zip)
