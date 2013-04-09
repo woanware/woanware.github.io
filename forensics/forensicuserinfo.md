@@ -31,4 +31,4 @@ ForensicUserInfo will extract the following information:
 
 ## Download ##
 - [v1.0.1](/downloads/forensicuserinfo.console.v.1.0.1.zip) Console
-- [v.1.0.4](http://www.woanware.co.uk/downloads/ForensicUserInfo.v.1.0.4.zip) GUI
+- [v1.0.4](http://www.woanware.co.uk/downloads/ForensicUserInfo.v.1.0.4.zip) GUI
