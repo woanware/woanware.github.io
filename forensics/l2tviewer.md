@@ -31,6 +31,8 @@ LocalDB needs to be installed (just use all of the default options) before runni
   * Click the Tools->Set Drive menu to choose the already mounted forensic image, then the context menu items will be enabled, so you can then right click on a row and choose the View or Hash context menu items
   
 
-**Screenshot** ![](/wp-content/uploads/Main2.png) 
+**Screenshot**
 
-**Download** [v0.0.3](/downloads/l2tViewer.v.0.0.3.zip)
+**Download** 
+
+[v0.0.3](/downloads/l2tViewer.v.0.0.3.zip)
