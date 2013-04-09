@@ -5,6 +5,8 @@ title: shimcacheparser
 
 # shimcacheparser #
 
+## Info ##
+
 This is a .Net port of the Mandiant ShimCacheParser ([https://github.com/mandiant/ShimCacheParser](https://github.com/mandiant/ShimCacheParser)). 
 
 This project is written for .Net 4.5 and requires Visual Studio 2012. The obvious difference is that it is written in C#, and it does not support data extraction from the local machine, nor from Mandiants MIR XML format, since I don't need this functionality. 
