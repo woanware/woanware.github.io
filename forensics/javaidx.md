@@ -13,6 +13,7 @@ javaidx is a console application for parsing Java IDX cache files. The repo also
 **Features**
 
   - Outputs to CSV with custom delimiter
+ 
   - Sorting by url,length,modified,expiration,validation
 
 **Third party libraries**

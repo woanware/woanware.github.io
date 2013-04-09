@@ -10,7 +10,6 @@ title: l2tViewer
 Note: l2tViewer is still **BETA** software. Some parts are rough around the edges, some bits might not work etc. l2tViewer uses .Net 4.5 so it is time to upgrade your .Net install :-) All of my future releases will be recompiled with .Net 4.5 so you may as well upgrade now: 
 
 - Bootstrap: http://go.microsoft.com/fwlink/?LinkId=225704 
-
 - Standalone: http://go.microsoft.com/fwlink/?LinkId=225702 
 
 l2tViewer is designed to improve timeline analysis for the output produced by the excellent [log2timeline](http://code.google.com/p/log2timeline/). 
