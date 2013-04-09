@@ -20,7 +20,7 @@ javaidx is a console application for parsing Java IDX cache files. The repo also
 - [CsvHelper](https://github.com/JoshClose/CsvHelper): Used for generating the CSV files
 - [Utility](/) (woanware) : My helper library
 
-## Requirements ## 
+## Requirements ##
 
 - .Net 4.5
 

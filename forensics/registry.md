@@ -11,7 +11,9 @@ I have written two other Windows Registry binary parsers that have not been rele
 
 Registry is a .Net 4 compatible port of Will Ballenthin's [python-registry](https://github.com/williballenthin/python-registry) project. 
 
-It is currently used in the shimcacheparser project. [https://github.com/woanware/Registry](https://github.com/woanware/Registry)
+It is currently used in the shimcacheparser project:
+
+[https://github.com/woanware/Registry](https://github.com/woanware/Registry)
 
 ## Download ##
 
