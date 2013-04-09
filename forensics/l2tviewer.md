@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: l2tViewer
 ---
 
