@@ -36,9 +36,9 @@
 		<a href="/forensics/snorbert">snorbert</a><br>
 		<a href="/forensics/usbdeviceforensics">USBDeviceForensics</a><br>		
 
-			{% for cat in site.categories %}
-    {{ cat[0] }}
-{% endfor %}
+{%  for category in site.categories %}
+<li><a href="/categories/{{ category[0] }}.html"></a></li>
+{ % endfor %}
 		
 		<br>
 		<h2>misc</h2>
