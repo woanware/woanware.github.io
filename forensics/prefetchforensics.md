@@ -1,5 +1,6 @@
 ---
 layout: default
+category: forensics
 title: PrefetchForensics
 ---
 

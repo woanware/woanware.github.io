@@ -1,5 +1,6 @@
 ---
-layout: forensics
+layout: default
+category: forensics
 title: EseDbViewer
 ---
 
