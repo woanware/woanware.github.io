@@ -1,5 +1,6 @@
 ---
 layout: default
+category: misc
 title: csv2html
 ---
 
