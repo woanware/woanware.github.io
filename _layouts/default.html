@@ -40,9 +40,9 @@
     {{ cat[0] }}
 {% endfor %} -->
 
-{ %  for cat in site.categories % }
+{% for cat in site.categories %}
 <li><a href="/categories/{{ cat[0] }}.html"></a></li>
-{ % endfor %}
+{% endfor %}
 		
 		<br>
 		<h2>misc</h2>
