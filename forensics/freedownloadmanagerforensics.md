@@ -4,7 +4,7 @@ category: forensics
 title: FreeDownloadManagerForensics
 ---
 
-# FreeDownloadManagerForensics #
+# {{ page.title }} #
 
 ## Info ##
 

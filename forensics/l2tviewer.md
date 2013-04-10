@@ -4,7 +4,7 @@ category: forensics
 title: l2tViewer
 ---
 
-# l2tViewer #
+# {{ page.title }} #
 
 ## Info ## 
 

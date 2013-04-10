@@ -4,7 +4,7 @@ category: forensics
 title: USBDeviceForensics
 ---
 
-# USBDeviceForensics #
+# {{ page.title }} #
 
 ## Info ##
 USBDeviceForensics is an application to extract numerous bits of information regarding USB devices. It uses the information from a SANS blog posting to retrieve operating system specific information. It now has the ability to process multiple NTUSER.dat registry hives in one go. 

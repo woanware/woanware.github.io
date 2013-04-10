@@ -4,7 +4,7 @@ category: forensics
 title: ForensicUserInfo
 ---
 
-# ForensicUserInfo #
+# {{ page.title }} #
 
 ## Info ##
 

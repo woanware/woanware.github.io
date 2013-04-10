@@ -1,0 +1,14 @@
+---
+layout: default
+title: Misc
+---
+
+# {{ page.title }} #
+
+<br>
+<br>
+{% for page in site.pages %}
+    {%if page.category == 'misc') %}
+		<a href="/misc/{{ page.title | downcase }}.html">{{ page.title }}</a><br>
+	{% endif %}
+{% endfor %}

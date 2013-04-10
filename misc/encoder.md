@@ -4,7 +4,7 @@ category: misc
 title: Encoder
 ---
 
-# Encoder
+# {{ page.title }} #
 
 ## Info ##
 

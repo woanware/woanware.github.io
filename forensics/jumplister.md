@@ -4,7 +4,7 @@ category: forensics
 title: JumpLister
 ---
 
-# JumpLister #
+# {{ page.title }} #
 
 ## Info ##
 

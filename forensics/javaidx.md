@@ -4,7 +4,7 @@ category: forensics
 title: javaidx
 ---
 
-# javaidx #
+# {{ page.title }} #
 
 ## Info ##
 

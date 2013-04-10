@@ -4,7 +4,7 @@ category: forensics
 title: firefoxsessionstoreextractor
 ---
 
-# firefoxsessionstoreextractor #
+# {{ page.title }} #
 
 ## Info ##
 

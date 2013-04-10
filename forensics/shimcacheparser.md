@@ -4,7 +4,7 @@ category: forensics
 title: shimcacheparser
 ---
 
-# shimcacheparser #
+# {{ page.title }} #
 
 ## Info ##
 

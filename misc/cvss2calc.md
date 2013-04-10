@@ -4,7 +4,7 @@ category: misc
 title: Cvss2Calc
 ---
 
-# Cvss2Calc
+# {{ page.title }} #
 
 ## Info ##
 Cvss2Calc is a simple application to aid the calculation of CVSS v2 scores. More information regarding CVSS v2 can be found [here](http://www.first.org/cvss/cvss-guide.html). 

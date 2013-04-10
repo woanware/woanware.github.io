@@ -4,7 +4,7 @@ category: forensics
 title: Registry
 ---
 
-# Registry #
+# {{ page.title }} #
 
 ## Info ##
 

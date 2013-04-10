@@ -4,7 +4,7 @@ category: forensics
 title: EseDbViewer
 ---
 
-# EseDbViewer #
+# {{ page.title }} #
 
 ## Info ##
 
@@ -31,4 +31,4 @@ If you get a **JET_errFileAccessDenied **error then it may be related to not hav
 
 ## Download ##
 
-[v1.05](http://www.woanware.co.uk/downloads/EseDbViewer.v.1.0.5.zip)
+[v1.0.5](http://www.woanware.co.uk/downloads/EseDbViewer.v.1.0.5.zip)

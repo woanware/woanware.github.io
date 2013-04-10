@@ -4,7 +4,7 @@ category: forensics
 title: snorbert
 ---
 
-# snorbert #
+# {{ page.title }} #
 
 ## Info ##
 snorbert is a snort data viewer, loosely based on [snorby](https://snorby.org/). It is written in C# and uses .Net 4.5. The aim of the application is to provide a fast, usable interface for accessing snort data. Depending on the snort deployment, the underlying data set can be extremely large, so care has been taken to optimise the data access. snorbert has various useful features.

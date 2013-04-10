@@ -4,7 +4,7 @@ category: forensics
 title: lnkanalyser
 ---
 
-# lnkanalyser #
+# {{ page.title }} #
 
 ## Info ##
 

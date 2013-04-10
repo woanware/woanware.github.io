@@ -4,7 +4,7 @@ category: misc
 title: wpic
 ---
 
-# wpic #
+# {{ page.title }} #
 
 ## Info ##
 

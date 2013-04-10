@@ -4,7 +4,7 @@ category: misc
 title: NetCalc
 ---
 
-# NetCalc
+# {{ page.title }} #
 
 ## Info ##
 

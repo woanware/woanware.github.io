@@ -1,0 +1,14 @@
+---
+layout: default
+title: Application
+---
+
+# {{ page.title }} #
+
+<br>
+<br>
+{% for temp in site.pages %}
+    {%if temp.category == 'application') %}
+		<a href="/application/{{ temp.title | downcase }}.html">{{ temp.title }}</a><br>
+	{% endif %}
+{% endfor %}
