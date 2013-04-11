@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: application
 category: application
 title: nnikto
 ---

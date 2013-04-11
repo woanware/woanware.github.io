@@ -1,16 +1,18 @@
 ---
-layout: default
+layout: network
 category: network
 title: ftpcheck
 ---
 
 # {{ page.title }} # 
 
-##Info##
+## Info ##
 
-Got bored logging into FTP services checking for anonymous authentication and whether I can have write privileges etc, so ftpcheck does it. There is a file within the applications directory that allows for various settings/defaults to be tweaked e.g. paths that are tested for, anonymous accounts used, users for enumeration. 
+Got bored logging into FTP services checking for anonymous authentication and whether I can have write privileges etc, so ftpcheck does it. 
 
-## Features##
+There is a file within the applications directory that allows for various settings/defaults to be tweaked e.g. paths that are tested for, anonymous accounts used, users for enumeration. 
+
+## Features ##
 
 - Checks for anonymous authentication
 - Checks for write privileges
@@ -22,14 +24,20 @@ Got bored logging into FTP services checking for anonymous authentication and w
 - Attempts to retrieve the .rhosts file
 - Attempts to retrieve the boot.ini file via path traversal
 
-## Example Output##
+## Example Output ##
 
     ftpcheck v1.0.0 
 
-    [+] Quote help The following commands are recognized(* ==>'s unimplemented). 
-    ABOR ACCT ALLO APPE CDUP CWD DELE FEAT HELP LIST MDTM MKD MODE NLST NOOP OPTS PASS PASV PORT PW QUIT REIN REST RETR RMD RNFR RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD XPWD XRMD HELP command successful. (code=214) 
+    [+] Quote help The following commands are recognized
 
-    [+] System Details (SYST): [   ] Windows_NT 
+    ABOR ACCT ALLO APPE CDUP CWD DELE FEAT HELP LIST MDTM
+    MKD MODE NLST NOOP OPTS PASS PASV PORT PW QUIT REIN REST
+    RETR RMD RNFR RNTO SITE SIZE SMNT STAT STOR STOU STRU 
+    SYST TYPE USER XCUP XCWD XMKD XPWD XRMD HELP 
+    command successful. (code=214) 
+
+    [+] System Details (SYST): 
+    [ ] Windows_NT 
     [+] Current Working Directory (PWD) 
     [ ] / 
 
@@ -42,9 +50,8 @@ Got bored logging into FTP services checking for anonymous authentication and w
     [+] User Enumeration 
     [ ] ~root does not exist 
     [ ] ~oracle does not exist 
-    [ ] ~guest does not exist 
     [ ] ~bin does not exist 
 
-##Download##
+## Download ##
 
 [Binaries (v1.0.7)](/downloads/ftpcheck.v.1.0.7.zip)

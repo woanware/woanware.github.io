@@ -11,7 +11,7 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-	<!-- LAYOUT: http://www.456bereastreet.com/lab/developing_with_web_standards/csslayout/2-col/ -->
+	
 	<style type="text/css" media="screen, print, projection">
 body,
 	html {
@@ -89,7 +89,6 @@ body,
 	{{ content }}
 </div>
 <div id="sidebar">
-	
 	<a href="https://github.com/woanware">GitHub Profile</a><br>
 	<a href="https://www.linkedin.com/in/markwoan">LinkedIn Profile<br><br>
 	
@@ -97,6 +96,14 @@ body,
 	<a href="/application/index.html">Application</a><br>
 	<a href="/network/index.html">Network</a><br>
 	<a href="/misc/index.html">Misc</a><br>
+	
+	<br>
+	<h2>Projects</h2>
+	{% for page in site.pages %}
+    {%if page.category == 'application') %}
+		<a href="/application/{{ page.title | downcase | replace:' ','-' }}.html">{{ page.title }}</a><br>
+	{% endif %}
+	{% endfor %}
 	
 </div>
 <div id="footer">

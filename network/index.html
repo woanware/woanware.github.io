@@ -1,14 +1,4 @@
 ---
-layout: default
+layout: network
 title: Network
 ---
-
-# {{ page.title }} #
-
-<br>
-<br>
-{% for page in site.pages %}
-    {%if page.category == 'network') %}
-		<a href="/network/{{ page.title | downcase }}.html">{{ page.title }}</a><br>
-	{% endif %}
-{% endfor %}

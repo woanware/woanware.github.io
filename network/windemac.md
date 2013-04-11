@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: network
 category: network
 title: windemac
 ---

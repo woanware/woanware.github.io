@@ -1,14 +1,4 @@
 ---
-layout: default
+layout: forensics
 title: Forensics
 ---
-
-# {{ page.title }} #
-
-<br>
-<br>
-{% for temp in site.pages %}
-    {%if temp.category == 'forensics') %}
-		<a href="/forensics/{{ temp.title | downcase }}.html">{{ temp.title }}</a><br>
-	{% endif %}
-{% endfor %}

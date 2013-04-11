@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: network
 category: network
 title: Arpey
 ---
@@ -16,6 +16,6 @@ A MS Windows ARP Scanner with extras. Performs ARP scans either actively or pas
 - If you are working with a large network you can add a delay between each packet via the Pause value
 - If you are using it with a wireless card, then go to the Config window and uncheck the "PCAP Promiscious" mode. Note that passive monitoring does not work with wireless cards due to limitations with PCAP
 
-##Download## 
+##Download##
 
 [Binaries (v2.1.1)](/downloads/Arpey.v.2.1.1.zip)

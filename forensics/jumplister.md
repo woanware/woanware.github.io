@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: forensics
 category: forensics
 title: JumpLister
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: network
 category: network
 title: winsnmp
 ---
@@ -21,4 +21,5 @@ Just a simple app to perform SNMP read/write checks. Also can "walk" the MIB...
 - Configurable timeout value (defaults to 2000ms) (-t)
 
 ##Download##
+
 [Binaries (v1.1.2)](/downloads/winsnmp.v.1.1.2.zip)

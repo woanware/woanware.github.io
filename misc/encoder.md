@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: misc
 category: misc
 title: Encoder
 ---
