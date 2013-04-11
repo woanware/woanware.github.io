@@ -18,5 +18,5 @@ The second was two other tools I used displayed strange artifacts after the main
 
 ## Download ##
 
-- [Source Code](https://github.com/woanware/shimcacheparser)
-- [Binaries (v1.0.1)](/downloads/shimcacheparser.v.1.0.1.zip)
+- [Source Code](https://github.com/woanware/shimcacheparser) 
+- [Binaries (v1.0.2)](/downloads/shimcacheparser.v.1.0.2.zip) 

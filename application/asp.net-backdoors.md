@@ -18,4 +18,4 @@ To use sql.aspx you need to supply a connection string, an example is shown belo
 
 ## Download ##
 
-[Binaries (v1.3.0)](/downloads/ASP.NET.Backdoors.v.1.3.0.zip)
+[Binaries (v1.3.0)](/downloads/ASP.Net.Backdoors.v.1.3.0.zip)
