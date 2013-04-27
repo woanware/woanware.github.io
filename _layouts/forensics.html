@@ -99,7 +99,7 @@ body,
 	
 	<br>
 	<h2>Projects</h2>
-	{% for page in site.pages order:ascending %}
+	{% for page in site.pages order:decending %}
     {%if page.category == 'forensics') %}
 		<a href="/forensics/{{ page.title | downcase }}.html">{{ page.title }}</a><br>
 	{% endif %}
