@@ -6,6 +6,7 @@ title: TargetAnalyser
 
 # {{ page.title }} #
 
+## Info ##
 TargetAnalyser is basically a rip off of [Automater](http://www.tekdefense.com/automater/), which is a python script designed to perform URL/Domain, IP Address, and MD5 Hash OSINT tool aimed at making the analysis process easier for intrusion Analysts. 
 
 The issue for me is that sometimes I want to look at the page that produced the output, so a UI provides an easy way to get all the info and yet still provide a quick method to open the page. I have also added a lot more OSINT.
