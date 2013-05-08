@@ -30,10 +30,17 @@ The issue for me is that sometimes I want to look at the page that produced the 
 
 ## Third party libraries ##
 
+- [DNS](http://www.codeproject.com/Articles/23673/DNS-NET-Resolver-C): DNS lookups
 - [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) : Data viewing via lists 
 - [VirusTotal.NET](https://github.com/woanware/VirusTotal.NET): Fork from https://github.com/Genbox/VirusTotal.NET
 - [Utility](http://www.woanware.co.uk): Misc functions (woanware)
 
 ## Requirements ##
 
-Microsoft .NET Framework v4.5 
+Microsoft .NET Framework v4/4.5
+
+## Download ##
+
+- [Source Code](https://github.com/woanware/TargetAnalyser)
+- [Binaries (v0.0.3 - .Net 4.5)](/downloads/TargetAnalyser.v.0.0.3.Net4.5.zip)
+- [Binaries (v0.0.3)](/downloads/TargetAnalyser.v.0.0.3.zip)
