@@ -1,7 +1,7 @@
 ---
 layout: forensics
 category: forensics
-title: regripperrunner
+title: RegRipperRunner
 ---
 
 # {{ page.title }} #
