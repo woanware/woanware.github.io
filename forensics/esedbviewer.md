@@ -6,6 +6,8 @@ title: EseDbViewer
 
 # {{ page.title }} #
 
+**This is deprecated, it uses the Windows API's and so requires a valid database. Use [libesedb](https://code.google.com/p/libesedb/) instead.**
+
 ## Info ##
 
 Extensible Storage Engine (ESE) is one of the least known and yet most widely distributed database engines (on Windows). ESE is also known as JET Blue, is an Indexed Sequential Access Method (ISAM) data storage technology from Microsoft. 
