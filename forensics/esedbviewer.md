@@ -6,6 +6,7 @@ title: EseDbViewer
 
 # {{ page.title }} #
 
+## Note ##
 
 **This is deprecated, it uses the Windows API's and so requires a valid database. Use [libesedb](https://code.google.com/p/libesedb/) instead.**
 
