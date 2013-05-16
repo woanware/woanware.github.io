@@ -36,4 +36,4 @@ LocalDB needs to be installed (just use all of the default options) before runni
 
 ## Download ##
 
-- [v0.0.3](/downloads/l2tViewer.v.0.0.3.zip)
+- [v0.0.4](/downloads/Timeliner.v.0.0.4.zip)
