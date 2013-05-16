@@ -18,4 +18,4 @@ This functionality would not be possible without the hard work of the forensics 
 
 ## Download ##
 
-- [v1.0.6](/downloads/JumpLister.v.1.0.6.zip)
+- [v1.1.0](/downloads/JumpLister.v.1.1.0.zip)
