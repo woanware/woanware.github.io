@@ -18,4 +18,5 @@ This functionality would not be possible without the hard work of the forensics 
 
 ## Download ##
 
-- [v1.1.0](/downloads/JumpLister.v.1.1.0.zip)
+- [Source](https://github.com/woanware/JumpLister)
+- [Binaries (v1.1.0)](/downloads/JumpLister.v.1.1.0.zip)
