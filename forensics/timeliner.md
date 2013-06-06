@@ -6,34 +6,45 @@ title: Timeliner
 
 # {{ page.title }} #
 
-## Info ## 
+## Info ##
 
-Note: l2tViewer is still **BETA** software. Some parts are rough around the edges, some bits might not work etc. l2tViewer uses .Net 4.5 so it is time to upgrade your .Net install :-) All of my future releases will be recompiled with .Net 4.5 so you may as well upgrade now: 
+Timerliner is is designed to improve time line analysis for the output produced by the excellent log2timeline. There are plans to add support for log2timeline's replacement plaso in the near future once the release is stable.
 
-- Bootstrap: http://go.microsoft.com/fwlink/?LinkId=225704 
-- Standalone: http://go.microsoft.com/fwlink/?LinkId=225702 
+The Viewing and sorting of CSV files via spreadsheet software generally does not work well due to the volumes of data involved in modern time line analysis, which is where Timeliner comes in. The earlier releases of Timeliner used SQL Server LocalDB, which was fast but had a 10 GB database size limit, which became a problem when I tried to import a 15 million event time line! 
 
-l2tViewer is designed to improve timeline analysis for the output produced by the excellent [log2timeline](http://code.google.com/p/log2timeline/). 
+The implementation has it's limitations e.g. to support that amount of events and still perform fast queries I have had to remove support for jumping to page X etc, but it means it will page through the results taking under 1 second for 20000 results, under 3 for 100,000 results. The new query mechanism has meant I have had to remove the ability to apply custom sorts, a default sort on the time stamp is added by default. 
 
-Viewing, sorting CSV files via spreadsheet software does not work well due to the volumes of data involved in modern timeline analysis, which is where l2tViewer comes in. 
+## Features ##
 
-It is designed to be fast when importing with minimal overhead and dependencies. l2tViewer uses a MS SQL Server 2012 LocalDB instance to store the data. 
+- Imports log2timeline, ntfswalk and fls
+- Fast querying (under 1 second for 20000 results, under 3 seconds for 100,000 results)
+- Supports huge data sets (tested with 15 million events)
 
-LocalDB needs to be installed (just use all of the default options) before running: 
+## Third party ##
 
-- x86: http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SqlLocaLDB.MSI 
-- x64: http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SqlLocalDB.MSI The application currently imports about 200,000 records  in 25 seconds on an $MFT file and 350,000 records in 55 seconds on a mixed Windows file. 
+- [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
+- [LumenWorks.Framework.IO.Csv](http://www.codeproject.com/Articles/9258/A-Fast-CSV-Reader): Fast CSV reading
+- [NLog](http://github.com/NLog/NLog) : Logging
+- [Npgsql](http://npgsql.projects.pgfoundry.org/): Postgres driver for .Net
+- [NPoco](https://github.com/schotime/NPoco): Data access
+- [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) : Data viewing via lists 
+- [protobuf-net](https://code.google.com/p/protobuf-net/): Extracting data from Plaso storage objects
+- [Utility](http://www.woanware.co.uk): Misc functions (woanware)
 
-## Usage ## 
+## Requirements ##
 
-- Click the File->New menu item or New tool bar button, select output folder, wait for the DB to be generated.
-- Next click the File->Import->Single menu item, choose the log2timeline file, the app will load a few lines to preview it
-- Enter the Mount Point Prefix, mine is generally something like "[root]\" or "/mnt/windows_mount/", this value will be replaced with a mounted image (as a local drive) e.g. "D:\" for file viewing and hashing, click OK and wait for the import to finish
-- Click the Tools->Set Drive menu to choose the already mounted forensic image, then the context menu items will be enabled, so you can then right click on a row and choose the View or Hash context menu items
+Microsoft .NET Framework v4.5 
+
+## Installation/Running ##
+- Install [postgres](http://www.postgresql.org/download/) database on the local machine
+- Create a new database called 'timeliner' (note that casing is important with postgres)
+- Run the SQL script (schema.sql) located in the Database folder
+- Next run Timeliner, create a new project, and import your time line file
   
 
 ## Screenshot ## 
 
 ## Download ##
 
-- [v0.0.4](/downloads/Timeliner.v.0.0.4.zip)
+- [Source Code](https://github.com/woanware/Timeliner)
+- (Binaries)[v0.1.0](/downloads/Timeliner.v.0.1.0.zip)
