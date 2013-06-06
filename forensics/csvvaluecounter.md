@@ -22,4 +22,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/csvvaluecounter)
-- (Binaries)[v0.1.0](/downloads/csvvaluecounter.v.1.0.0.zip)
+- [Binaries (v1.0.0)](/downloads/csvvaluecounter.v.1.0.0.zip)
