@@ -42,5 +42,5 @@ Microsoft .NET Framework v4/4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/TargetAnalyser)
-- [Binaries (v0.0.3 - .Net 4.5)](/downloads/TargetAnalyser.v.0.0.3.Net4.5.zip)
-- [Binaries (v0.0.3)](/downloads/TargetAnalyser.v.0.0.3.zip)
+- [Binaries (v0.0.5 - Console)](/downloads/TargetAnalyser.v.0.0.5.Console.zip)
+- [Binaries (v0.0.5 - GUI)](/downloads/TargetAnalyser.v.0.0.5.GUI.zip)

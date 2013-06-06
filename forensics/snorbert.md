@@ -39,4 +39,4 @@ snorbert is a snort data viewer, loosely based on [snorby](https://snorby.org/).
 ## Download ##
 
 - [Source Code](https://github.com/woanware/snorbert)
-- [Binaries (v1.0.8)](/downloads/snorbert.v.1.0.8.zip)
+- [Binaries (v1.0.8)](/downloads/snorbert.v.1.0.15.zip)
