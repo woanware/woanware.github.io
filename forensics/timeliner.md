@@ -36,13 +36,18 @@ The implementation has it's limitations e.g. to support that amount of events an
 Microsoft .NET Framework v4.5 
 
 ## Installation/Running ##
-- Install [postgres](http://www.postgresql.org/download/) database on the local machine
-- Create a new database called 'timeliner' (note that casing is important with postgres)
-- Run the SQL script (schema.sql) located in the Database folder
-- Next run Timeliner, create a new project, and import your time line file
-  
 
-## Screenshot ## 
+- Install [postgres](http://www.postgresql.org/download/) database on the local machine 
+- Open pgadmin and connect to the server, enter the password set during the installation
+- Right click on the Database treeview node and select "New Database"
+- Enter the database name as ‘timeliner’ (note that casing is important with postgres) and then click OK 
+- Then expand the databases node, and select the new 'timeliner' database
+- Next click the SQL icon on the toolbar, this will open the SQL query window
+- Copy the contents of the SQL script (schema.sql) located in the Database folder into the SQL query window or just drag the file onto the window
+- Then press the green arrow button on the toolbar or press F5 to execute the query, this should create the schema and set the appropriate permissions
+- Next run Timeliner, create a new project, and import your time line file
+
+## Screenshot ##
 
 ## Download ##
 
