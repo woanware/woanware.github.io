@@ -14,8 +14,6 @@ title: Timeliner
 
 ## Requirements ##
 
-Microsoft .NET Framework v4.5 
-
 ## Installation/Running ##
 
 
