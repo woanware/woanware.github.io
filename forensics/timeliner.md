@@ -22,14 +22,7 @@ The implementation has it's limitations e.g. to support that amount of events an
 
 ## Third party ##
 
-- [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
-- [LumenWorks.Framework.IO.Csv](http://www.codeproject.com/Articles/9258/A-Fast-CSV-Reader): Fast CSV reading
-- [NLog](http://github.com/NLog/NLog) : Logging
-- [Npgsql](http://npgsql.projects.pgfoundry.org/): Postgres driver for .Net
-- [NPoco](https://github.com/schotime/NPoco): Data access
-- [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) : Data viewing via lists 
-- [protobuf-net](https://code.google.com/p/protobuf-net/): Extracting data from Plaso storage objects
-- [Utility](http://www.woanware.co.uk): Misc functions (woanware)
+
 
 ## Requirements ##
 
@@ -37,9 +30,6 @@ Microsoft .NET Framework v4.5
 
 ## Installation/Running ##
 
-## Download ##
 
-- [Source Code](https://github.com/woanware/Timeliner)
-- [Binaries (v0.1.1)](/downloads/Timeliner.v.0.1.1.zip)
 
 
