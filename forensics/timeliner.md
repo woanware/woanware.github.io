@@ -40,7 +40,7 @@ Microsoft .NET Framework v4.5
 - Install [postgres](http://www.postgresql.org/download/) database on the local machine 
 - Open pgadmin and connect to the server, enter the password set during the installation
 - Right click on the Database treeview node and select "New Database"
-- Enter the database name as ‘timeliner’ (note that casing is important with postgres) and then click OK 
+- Enter the database name as 'timeliner' (note that casing is important with postgres) and then click OK 
 - Then expand the databases node, and select the new 'timeliner' database
 - Next click the SQL icon on the toolbar, this will open the SQL query window
 - Copy the contents of the SQL script (schema.sql) located in the Database folder into the SQL query window or just drag the file onto the window
