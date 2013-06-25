@@ -22,7 +22,7 @@ If you use the application to view the Desktop Search database (Windows.edb), t
 
 The application uses a managed wrapper (http://www.codeplex.com/ManagedEsent) to access the ESE functionality as it’s pretty dirty to use, well from a nice, safe C# point of view! :-) 
 
-Some example paths for the *.edb files are shown below: 
+Some example paths for the .edb files are shown below: 
 
 - Windows Live Messenger: C:\Users\woany\AppData\Local\Microsoft\Windows Live Contacts\{5dabbe1a-86f7-47af-92d9-8228549cb5d9}\DBStore 
 - Desktop Search: C:\ProgramData\Microsoft\Search\Data\Applications\Windows 
