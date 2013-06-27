@@ -49,4 +49,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/Timeliner)
-- [Binaries (v0.1.1)](/downloads/Timeliner.v.0.1.1.zip)
+- [Binaries (v0.1.1)](/downloads/Timeliner.v.0.1.1.zip) 
