@@ -13,7 +13,7 @@ Sometimes it is hard looking for values when there are large amounts of data e.g
 ## Third party ##
 
 - [CommandLine](https://github.com/gsscoder/commandline): Used for command line parsing
-- [LumenWorks.Framework.IO.Csv](http://www.codeproject.com/Articles/9258/A-Fast-CSV-Reader): Fast CSV reading
+- [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
 
 ## Requirements ##
 
@@ -22,4 +22,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/csvvaluecounter)
-- [Binaries (v1.0.0)](/downloads/csvvaluecounter.v.1.0.0.zip)
+- [Binaries (v1.0.1)](/downloads/csvvaluecounter.v.1.0.1.zip)

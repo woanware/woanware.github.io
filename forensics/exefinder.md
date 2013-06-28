@@ -23,4 +23,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/exefinder)
-- [Binaries (v1.0.0)](/downloads/exefinder.v.1.0.0.zip)
+- [Binaries (v1.0.1)](/downloads/exefinder.v.1.0.1.zip)
