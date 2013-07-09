@@ -28,4 +28,4 @@ javaidx is a console application for parsing Java IDX cache files. The repo also
 ## Download ##
 
 - [Source Code](https://github.com/woanware/javaidx)
-- [Binaries (v1.0.1)](/downloads/javaidex.v.1.0.1.zip)
+- [Binaries (v1.0.1)](/downloads/javaidx.v.1.0.1.zip)
