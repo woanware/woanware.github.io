@@ -1,6 +1,6 @@
 ---
 layout: network
-category: newtwork
+category: network
 title: SessionViewer
 ---
 
