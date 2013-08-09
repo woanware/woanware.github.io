@@ -21,7 +21,7 @@ snorbert is a snort data viewer, loosely based on [snorby](https://snorby.org/).
 ## Third party libraries ##
 
 - [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) : Data viewing via lists
-- [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
+- [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
 - [Be.HexEditor](http://sourceforge.net/projects/hexbox/) : HEX view of packet data
 - [IP Address Control](http://www.codeproject.com/Articles/9352/A-C-IP-Address-Control) : Easy validation of IP addresses
 - [MySql](http://dev.mysql.com/downloads/connector/net/) : Access to snort MySQL databases
@@ -39,4 +39,4 @@ snorbert is a snort data viewer, loosely based on [snorby](https://snorby.org/).
 ## Download ##
 
 - [Source Code](https://github.com/woanware/snorbert)
-- [Binaries (v1.0.8)](/downloads/snorbert.v.1.0.15.zip)
+- [Binaries (v1.1.2)](/downloads/snorbert.v1.1.2.zip)

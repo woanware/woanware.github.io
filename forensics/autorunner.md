@@ -46,4 +46,4 @@ The application should be used against a forensic image that has been mounted us
 ## Download ##
 
 - [Source Code](https://github.com/woanware/autorunner)
-- [Binaries (v0.0.5)](/downloads/autorunner.v.0.0.5.zip)
+- [Binaries (v0.0.6)](/downloads/autorunner.v0.0.6.zip)
