@@ -37,10 +37,10 @@ The issue for me is that sometimes I want to look at the page that produced the 
 
 ## Requirements ##
 
-Microsoft .NET Framework v4/4.5
+Microsoft .NET Framework 4.5
 
 ## Download ##
 
 - [Source Code](https://github.com/woanware/TargetAnalyser)
-- [Binaries (v0.0.5 - Console)](/downloads/TargetAnalyser.v.0.0.5.Console.zip)
-- [Binaries (v0.0.5 - GUI)](/downloads/TargetAnalyser.v.0.0.5.GUI.zip)
+- [Binaries (v0.0.10 - Console)](/downloads/TargetAnalyser.v.0.0.10.Console.zip)
+- [Binaries (v0.0.10 - GUI)](/downloads/TargetAnalyser.v.0.0.10.GUI.zip)
