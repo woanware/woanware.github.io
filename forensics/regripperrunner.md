@@ -33,4 +33,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/RegRipperRunner)
-- [Binaries (v1.0.2)](/downloads/RegRipperRunner.v.1.0.2.zip)
+- [Binaries (v1.0.3)](/downloads/RegRipperRunner.v.1.0.3.zip)
