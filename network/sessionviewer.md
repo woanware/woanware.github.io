@@ -35,4 +35,4 @@ Microsoft .NET Framework v4.5
 ## Download ##
 
 - [Source Code](https://github.com/woanware/SessionViewer)
-- [Binaries (v1.0.7)](/downloads/SessionViewer.v1.0.7.zip)
+- [Binaries (v1.0.8)](/downloads/SessionViewer.v1.0.8.zip)
