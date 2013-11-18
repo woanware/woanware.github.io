@@ -23,6 +23,7 @@ The tool requires an API key from Virus Total. Once you have a valid key then ad
 - [MS SQL CE](http://www.microsoft.com/en-us/download/details.aspx?id=30709) : Access to MS SQL CE session database
 - [NPoco](https://github.com/schotime/NPoco) : Easy access to SQL CE data
 - [Utility](http://www.woanware.co.uk) (woanware) : My helper library
+- [VirusTotal.NET](https://github.com/woanware/VirusTotal.NET) : Fork from https://github.com/Genbox/VirusTotal.NET, with new API's, caching etc
 
 ## Requirements ##
 
@@ -31,4 +32,4 @@ The tool requires an API key from Virus Total. Once you have a valid key then ad
 ## Download ##
 
 - [Source Code](https://github.com/woanware/virustotalchecker)
-- [Binaries (v1.0.5)](/downloads/virustotalchecker.v.1.0.5.zip)
+- [Binaries (v1.1.0)](/downloads/virustotalchecker.v1.1.0.zip)
