@@ -15,4 +15,4 @@ It is possible to set a time zone offset by using the Time Zone window e.g. Tool
  
 ## Download ##
 
-- [Binaries (v1.0.13)](/downloads/USBDeviceForensics.v1.0.13.zip)
+- [Binaries (v1.0.14)](/downloads/USBDeviceForensics.v1.0.14.zip)
