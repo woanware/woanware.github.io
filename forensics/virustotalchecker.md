@@ -32,4 +32,4 @@ The tool requires an API key from Virus Total. Once you have a valid key then ad
 ## Download ##
 
 - [Source Code](https://github.com/woanware/virustotalchecker)
-- [Binaries (v1.1.2)](/downloads/virustotalchecker.v1.1.2.zip)
+- [Binaries (v1.1.4)](/downloads/virustotalchecker.v1.1.4.zip)
