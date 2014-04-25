@@ -16,7 +16,7 @@ The second issue that is in off-line mode it needs the user to supply the path t
 
 So autorunner is designed to work around all of these issues. It will check against all user profiles associated with the host. It will parse out LNK files to the actual binary (one level down). It allows the user to specify multiple drive mappings, so that if the forensic image contains multiple partitions you can map the original drives to mounted drives on the forensic workstation.
 
-The application should be used against a forensic image that has been mounted using whatever method you desire.
+The application should be used against a forensic image that has been mounted using whatever method you desire. **Ensure that the image is mounted writeable, so that the writes are cached and the original image is not affected. This is so the application can take ownership of the files where necessary to ensure that everything is accessible to retrieve the file attributes**
 
 ## Features ##
 
@@ -24,20 +24,17 @@ The application should be used against a forensic image that has been mounted us
 - Checks the authenticode signature
 - Parses LNK files
 - Normalises binary path
-- Can perform hash checks against virus total
 
 ## Third party libraries ##
 
 - [CsvHelper](https://github.com/JoshClose/CsvHelper): CSV output
 - [DotNetZip](http://dotnetzip.codeplex.com/) : Used to download the sigcheck tool and unzip
-- [MS SQL CE](http://www.microsoft.com/en-us/download/details.aspx?id=30709) : Access to MS SQL CE session database (Used by the VirusTotal.NET fork for database caching of results)
 - [sigcheck](http://technet.microsoft.com/en-gb/sysinternals/bb897441.aspx) : Sysinternals tools to perform file signature checks 
 - [ObjectListView](http://objectlistview.sourceforge.net/cs/index.html) : Data viewing via lists 
 - [ProcessPrivileges](http://processprivileges.codeplex.com/): Process Privileges is a set of extension methods, written in C#, for System.Diagnostics.Process. It implements the functionality necessary to query, enable, disable or remove privileges on a process
 - [Shellify](http://sourceforge.net/projects/shellify/) : LNK file parsing
-- [VirusTotal.NET](https://github.com/woanware/VirusTotal.NET): Fork from https://github.com/Genbox/VirusTotal.NET
 - [Registry](https://github.com/woanware/Registry): Binary Registry parser (woanware)
-- [Utility]: Binary Registry parser (woanware)
+- [Utility](http://www.woanware.co.uk): Helper functions (woanware)
 
 ## Requirements ##
 
@@ -46,4 +43,4 @@ The application should be used against a forensic image that has been mounted us
 ## Download ##
 
 - [Source Code](https://github.com/woanware/autorunner)
-- [Binaries (v0.0.7)](/downloads/autorunner.v0.0.7.zip)
+- [Binaries (v0.0.8)](/downloads/autorunner.v0.0.8.zip)
