@@ -41,4 +41,4 @@ To check whether the correct version of nessus export files is being used, open 
 
 ##Download##
 
-[Binaries (v1.1.1)](/downloads/NetworkScanViewer.v.1.1.1.zip)
+[Binaries (v1.2.3)](https://github.com/woanware/NetworkScanViewer/releases/download/v1.2.3/NetworkScanViewer.v1.2.3.zip)

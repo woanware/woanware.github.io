@@ -31,4 +31,4 @@ ForensicUserInfo will extract the following information:
 - Groups
 
 ## Download ##
-- [v1.0.4](/downloads/ForensicUserInfo.v.1.0.4.zip) 
+- [v1.0.4](/downloads/ForensicUserInfo.v1.0.5.zip) 
