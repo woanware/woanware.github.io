@@ -38,7 +38,7 @@ The GUI .Net version (v1.0.14) is now deprecated.
  
 ## Download ##
 
-- [Python with deps (v0.0.1)](https://github.com/woanware/usbdeviceforensics/releases/download/v0.0.1/usbdeviceforensics.v0.0.1.zip)
+- [Python with deps (v0.0.1)](https://github.com/woanware/usbdeviceforensics/releases/download/v0.0.1.deps/usbdeviceforensics.v0.0.1.with.deps.zip)
 - [Python (v0.0.1)](https://github.com/woanware/usbdeviceforensics/releases/download/v0.0.1/usbdeviceforensics.v0.0.1.zip)
 - [Source Code](https://github.com/woanware/usbdeviceforensics)
 - [Binaries (v1.0.14)](/downloads/USBDeviceForensics.v1.0.14.zip)
